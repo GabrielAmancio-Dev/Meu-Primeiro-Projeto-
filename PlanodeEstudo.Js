@@ -1,1 +1,1 @@
-alert("Olá")
+alert("Bem vindo ao Plano de Estudos !!")
