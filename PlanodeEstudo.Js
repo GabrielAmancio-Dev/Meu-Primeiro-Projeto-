@@ -1,9 +1,9 @@
 alert("Bem vindo ao Plano de Estudos !!")
 
-function mostarMensagem(){
+function mostrarMensagem(){
 
-    let mensagem = document.getElementById("mensagem")
+    let Mensagem = document.getElementById("Mensagem")
 
-    mensagem.innerHTML = "Parabéns Gabriel, você estudou hoje 🚀"
+    Mensagem.innerHTML = "Parabéns Gabriel, você estudou hoje 🚀"
 
 }
