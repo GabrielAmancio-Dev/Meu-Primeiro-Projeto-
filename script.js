@@ -1,38 +1,39 @@
 const tarefas = [
-  { nome: "Estudar HTML", concluido: false },
-  { nome: "Estudar CSS", concluido: false },
-  { nome: "Estudar JS", concluido: false }
+  {
+    nome: 'Estudar HTML',
+    data: 'TODA SEGUNDA',
+    horario: '',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+  {
+    nome: 'Praticar CSS e Flexbox',
+    data: 'TODA SEGUNDA',
+    horario: '',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+  {
+    nome: 'Criar Landing Page',
+    data: 'TODA TERÇA E SEXTA UM POUCO',
+    horario: '',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+  {
+    nome: 'Aprender JavaScript Básico',
+    data: 'TODA TERÇA',
+    horario: '',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+  {
+    nome: 'Treinar lógica de programação',
+    data: 'TODA QUARTA',
+    horario: '13h',
+    prazo: '2026-06-30',
+    concluido: false
+  }
 ];
 
-const cards = document.getElementById("cards");
-function renderizar(){
-  cards.innerHTML = "";
-
-  tarefas.forEach(tarefa => {
-    cards.innerHTML += `
-      <div class="card">
-        <h2>${tarefa.nome}</h2>
-      </div>
-    `;
-  });
-}
-
-renderizar();
-
-function alternar(index){
-  tarefas[index].concluido = !tarefas[index].concluido;
-  renderizar();
-} 
-
-cards.innerHTML += `
-  <div class="card">
-    <h2>${tarefa.nome}</h2>
-
-    <label>
-      <input type="checkbox"
-        ${tarefa.concluido ? "checked" : ""}
-        onchange="alternar(${index})">
-      Concluir
-    </label>
-  </div>
-`;
+const cards = document.getElementById('cards');
