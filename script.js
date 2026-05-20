@@ -18,3 +18,8 @@ function renderizar(){
 }
 
 renderizar();
+
+function alternar(index){
+  tarefas[index].concluido = !tarefas[index].concluido;
+  renderizar();
+} 
