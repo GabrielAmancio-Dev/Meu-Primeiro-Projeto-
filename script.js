@@ -5,3 +5,16 @@ const tarefas = [
 ];
 
 const cards = document.getElementById("cards");
+function renderizar(){
+  cards.innerHTML = "";
+
+  tarefas.forEach(tarefa => {
+    cards.innerHTML += `
+      <div class="card">
+        <h2>${tarefa.nome}</h2>
+      </div>
+    `;
+  });
+}
+
+renderizar();
