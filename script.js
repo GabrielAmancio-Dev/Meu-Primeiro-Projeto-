@@ -3,7 +3,7 @@ const tarefas = [
   {
     nome: 'Estudar HTML',
     data: 'TODA SEGUNDA',
-    horario: '',
+    horario: 'Das 11h Até 15h',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -11,15 +11,7 @@ const tarefas = [
   {
     nome: 'Praticar CSS e Flexbox',
     data: 'TODA SEGUNDA',
-    horario: '',
-    prazo: '2026-06-30',
-    concluido: false
-  },
-
-  {
-    nome: 'Criar Landing Page',
-    data: 'TODA TERÇA E SEXTA UM POUCO',
-    horario: '',
+    horario: 'Das 16h às 18h',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -27,7 +19,16 @@ const tarefas = [
   {
     nome: 'Aprender JavaScript Básico',
     data: 'TODA TERÇA',
-    horario: '',
+    horario: 'Das 11h às 15h',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+
+
+   {
+    nome: 'Criar Landing Page',
+    data: 'TODA TERÇA E SEXTA UM POUCO',
+    horario: 'Das 16h às 18h',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -35,7 +36,7 @@ const tarefas = [
   {
     nome: 'Treinar lógica de programação',
     data: 'TODA QUARTA',
-    horario: '',
+    horario: 'Das 11h às 15h',
     prazo: '2026-06-30',
     horario: '13h',
     concluido: false
@@ -44,7 +45,7 @@ const tarefas = [
   {
     nome: 'Aprender Git e GitHub',
     data: 'TODOS OS DIAS',
-    horario: '',
+    horario: 'Das 20h às 21h',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -52,7 +53,6 @@ const tarefas = [
   {
     nome: 'Subir projeto no GitHub',
     data: 'TODA VEZ QUE FIZER ALGO',
-    horario: '',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -60,7 +60,6 @@ const tarefas = [
   {
     nome: 'Montar LinkedIn tech',
     data: 'TODO SABADO OU SE FIZER ALGO NA SEMANA',
-    horario: '',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -68,7 +67,6 @@ const tarefas = [
   {
     nome: 'Criar projeto para portfólio',
     data: 'REVER SEXTA E SABADO',
-    horario: '',
     prazo: '2026-06-30',
     concluido: false
   },
@@ -76,14 +74,13 @@ const tarefas = [
   {
     nome: 'Revisar conteúdos do mês',
     data: 'TODA QUINTA',
-    horario: '',
     prazo: '2026-06-30',
     concluido: false
   }
   ,{
     nome: 'Praticar Inglês',
     data: 'QUARTA, QUINTA E SABADO',
-    horario: '11h e 21h',
+    horario: '21h',
     prazo: '2026-06-30',
     concluido: false
   },
