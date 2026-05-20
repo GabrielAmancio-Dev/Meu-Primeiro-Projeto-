@@ -23,3 +23,16 @@ function alternar(index){
   tarefas[index].concluido = !tarefas[index].concluido;
   renderizar();
 } 
+
+cards.innerHTML += `
+  <div class="card">
+    <h2>${tarefa.nome}</h2>
+
+    <label>
+      <input type="checkbox"
+        ${tarefa.concluido ? "checked" : ""}
+        onchange="alternar(${index})">
+      Concluir
+    </label>
+  </div>
+`;
