@@ -1,1 +1,2 @@
-# meu primeiro projeto 
+# meu primeiro projeto - Plano de Estudos
+# Aki onde vai ter um mini site onde vai abordar aquilo que voce quer estudar e a percentagem de como voce está indo, onde irá ter seus prazos, horario e também até quando voce quer estudar aquilo

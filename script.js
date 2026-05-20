@@ -35,9 +35,8 @@ const tarefas = [
   {
     nome: 'Treinar lógica de programação',
     data: 'TODA QUARTA',
-    horario: '',
-    prazo: '2026-06-30',
     horario: '13h',
+    prazo: '2026-06-30',
     concluido: false
   },
 
@@ -112,7 +111,7 @@ function atualizarTela() {
           Meta: ${tarefa.data}
         </p>
 
-        <p class="prazo">
+        <p class="Horario">
             Horario: ${tarefa.horario}
         </p>
 
@@ -143,7 +142,7 @@ function atualizarTela() {
 
   const concluidas = tarefas.filter(t => t.concluido).length;
 
-  const percentual = Math.round((concluidas / total) * 100);
+  const percentual = total === 0 ? 0 : Math.round((concluidas / total) * 100);
 
   document.getElementById('percentual').innerText =
     percentual + '%';
