@@ -83,6 +83,14 @@ const tarefas = [
   ,{
     nome: 'Praticar Inglês',
     data: 'QUARTA, QUINTA E SABADO',
+    horario: '11h e 21h',
+    prazo: '2026-06-30',
+    concluido: false
+  },
+
+  {
+    nome: 'Fazer Autoescola',
+    data: 'VER AULAS', 
     horario: '',
     prazo: '2026-06-30',
     concluido: false
