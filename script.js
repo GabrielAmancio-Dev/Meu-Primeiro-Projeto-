@@ -37,3 +37,36 @@ const tarefas = [
 ];
 
 const cards = document.getElementById('cards');
+function atualizarTela() {
+
+  cards.innerHTML = '';
+
+  tarefas.forEach((tarefa, index) => {
+
+    cards.innerHTML += `
+      <div class="card">
+
+        <h2>${tarefa.nome}</h2>
+
+        <p class="descricao">
+          Meta: ${tarefa.data}
+        </p>
+
+        <p class="prazo">
+          Prazo: ${tarefa.prazo}
+        </p>
+
+        <p class="descricao">
+          Horario: ${tarefa.horario}
+        </p>
+
+        <span class="${tarefa.concluido ? 'concluido' : 'pendente'}">
+          ${tarefa.concluido ? 'Concluído' : 'Pendente'}
+        </span>
+
+      </div>
+    `;
+  });
+}
+
+atualizarTela();
