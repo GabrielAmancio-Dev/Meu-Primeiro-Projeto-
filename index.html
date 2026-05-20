@@ -1,51 +1,38 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano de Estudo</title>
-    <link rel="stylesheet" href="PlanodeEstudo.css">
-    <script src="PlanodeEstudo.Js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plano de Estudos</title>
+
+  <link rel="stylesheet" href="PlanodeEstudo.css">
 </head>
 <body>
-    <div class="container">
 
-    <h1>Meu Plano 🚀</h1>
-    
-        <p id="mensagem">
-            Gabriel - Ciência da Computação
-        </p>
-    
-        <div class="card">
-            <h2>Estudo de Hoje</h2>
-            
-            <ul>
-                <li>
-                    <input type="checkbox">
-                    Estudar HTML
-                </li>
-                
-                <li>
-                    <input type="checkbox">
-                    Estudar css
-                </li>
+  <div class="container">
 
-                <li>
-                    <input type="checkbox">
-                    Estudar JavaScript
-                </li>
-
-                <li>
-                    <input type="checkbox">
-                    Fazer exercícios
-                </li>
-            </ul>
-        </div>
-
-        <button onclick="mostrarMensagem()">
-            Finalizar Estudos
-        </button>
-
+    <div class="titulo">
+      <h1>Plano de Estudos 🚀</h1>
+      <p>Acompanhe seu progresso.</p>
     </div>
+
+    <div class="progresso">
+      <h2>Seu progresso</h2>
+
+      <h1 id="percentual">0%</h1>
+
+      <div class="barra">
+        <div class="barra-preenchida" id="barra"></div>
+      </div>
+
+      <p id="texto-progresso"></p>
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+  </div>
+
+  <script src="PlanodeEstudo.Js"></script>
+
 </body>
 </html>
